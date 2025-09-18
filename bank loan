@@ -1,0 +1,7 @@
+pan=int(input("enter 0 or 1 for pancard verification:"))
+adhaar=int(input("enter 0 or 1 for adhaarcard verification:"))
+civilscore=int(input("enter your civil score:"))
+if(pan==1 and adhaar==1 and civilscore>700):
+    print("loan is approved")
+else:
+    print("loan rejected")
