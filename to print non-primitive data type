@@ -1,0 +1,6 @@
+li=[18,19,20]
+se={18,19,20}
+tu=(18,19,20)
+print(type(li))
+print(type(se))
+print(type(tu))
