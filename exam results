@@ -1,0 +1,7 @@
+marks1=int(input("enter the marks obtained"))
+marks2=int(input("enter the marks obtained"))
+marks3=int(input("enter the marks obtained"))
+if(marks1>=35 and marks2>=50 and marks3>60):
+    print("passed exam")
+else:
+    print("failed")
