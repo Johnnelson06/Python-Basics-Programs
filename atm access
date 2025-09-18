@@ -1,0 +1,7 @@
+card=input("inserted or not inserted:")
+pin=int(input("enter the pin:"))
+Accountstatus=int(input("0-locked or 1-not locked:"))
+if(card=="inserted" and pin==1907 and Accountstatus==1):
+    print("money withdrawn successfully")
+else:
+    print("money not withdrawn successfully")
