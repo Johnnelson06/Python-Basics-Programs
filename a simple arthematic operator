@@ -1,0 +1,13 @@
+n1=int(input("enter the number"))
+n2=int(input("enter the number"))
+operator=input("enter the operator")
+if(operator=="sum"):
+    print(n1+n2)
+elif(operator=="sub"):
+    print(n1-n2)
+elif(operator=="mul"):
+    print(n1*n2)
+elif(operator=="div"):
+    print(n1/n2)
+else:
+    print("enter valid operator")
